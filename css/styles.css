@@ -179,43 +179,105 @@ padding:40px;
  LETTER SECTION
 ========================= */
 
+/* =========================
+   IMPROVED OPEN LETTER
+========================= */
+
 #letter {
 
-padding:120px 8%;
+    padding: 120px 8%;
 
-text-align:center;
+    background:
+    linear-gradient(
+        180deg,
+        #0b0b0b,
+        #151515
+    );
 
-background:
-
-rgba(255,255,255,.03);
+    text-align:center;
 
 }
-
 
 
 #letter h2 {
 
-font-family:'Cormorant Garamond',serif;
+    font-family:'Cormorant Garamond', serif;
 
-font-size:4rem;
+    font-size:4rem;
 
-color:var(--gold);
+    color:var(--gold);
+
+    margin-bottom:50px;
+
+}
+
+
+#letter p {
+
+    max-width:850px;
+
+    margin:auto;
+
+    padding:60px 70px;
+
+    background:
+
+    rgba(255,255,255,0.08);
+
+    border:1px solid rgba(212,175,55,0.35);
+
+    border-radius:30px;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+
+    0 30px 80px rgba(0,0,0,.5);
+
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:1.7rem;
+
+    line-height:2;
+
+    color:#ffffff;
+
+    letter-spacing:.5px;
+
+}
+
+
+/* Highlight the emotional feeling */
+
+#letter p::first-letter {
+
+    color:var(--gold);
+
+    font-size:3rem;
 
 }
 
 
 
+/* MOBILE */
+
+@media(max-width:768px){
+
 #letter p {
 
-max-width:800px;
+    padding:35px 25px;
 
-margin:40px auto;
+    font-size:1.25rem;
 
-font-size:1.2rem;
+}
 
-line-height:2;
 
-color:#ddd;
+#letter h2 {
+
+    font-size:2.8rem;
+
+}
 
 }
 
