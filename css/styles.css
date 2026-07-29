@@ -262,7 +262,7 @@ padding:40px;
 
 /* MOBILE */
 
-@media(max-width:768px){
+@media(max-width:880px){
 
 #letter p {
 
@@ -461,7 +461,7 @@ color:#aaa;
  MOBILE
 ========================= */
 
-@media(max-width:768px){
+@media(max-width:880px){
 
 
 #story h2,
@@ -587,7 +587,7 @@ transform:translate(-50%,-50%);
 }
 
 
-@media(max-width:768px){
+@media(max-width:880px){
 
 .cursor{
 
@@ -699,7 +699,7 @@ rgba(212,175,55,.12);
 
 /* MOBILE IMPROVEMENT */
 
-@media(max-width:768px){
+@media(max-width:880px){
 
 
 .navbar{
