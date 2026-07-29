@@ -739,3 +739,285 @@ margin:auto;
 
 
 }
+
+/* ===================================================
+   FINAL MOBILE RESPONSIVE FIX
+   BRI XKLUSIVE WEAR BIRTHDAY EXPERIENCE
+=================================================== */
+
+
+@media screen and (max-width: 768px){
+
+
+/* GLOBAL */
+
+body{
+    overflow-x:hidden;
+}
+
+
+section{
+    width:100%;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+
+    top:10px;
+    width:94%;
+    height:auto;
+
+    padding:15px 20px;
+
+}
+
+
+.logo img{
+
+    height:35px;
+
+}
+
+
+.navbar ul{
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+
+.navbar a{
+
+    font-size:.7rem;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    min-height:auto;
+
+    display:flex;
+
+    flex-direction:column-reverse;
+
+    padding:130px 6% 80px;
+
+    text-align:center;
+
+    gap:40px;
+
+}
+
+
+.hero-left h4{
+
+    font-size:.8rem;
+
+    letter-spacing:3px;
+
+}
+
+
+.hero-left h1{
+
+    font-size:3rem;
+
+}
+
+
+.hero-left p{
+
+    font-size:1rem;
+
+}
+
+
+.hero-left blockquote{
+
+    font-size:1rem;
+
+    padding-left:15px;
+
+}
+
+
+
+/* PORTRAIT */
+
+.portrait{
+
+    width:90vw;
+
+    max-width:360px;
+
+    height:450px;
+
+}
+
+
+
+/* BUTTON */
+
+.btn{
+
+    padding:15px 35px;
+
+}
+
+
+
+/* STORY */
+
+#story{
+
+    padding:80px 6%;
+
+}
+
+
+#story h2{
+
+    font-size:2.3rem;
+
+}
+
+
+#story p{
+
+    font-size:1rem;
+
+}
+
+
+
+/* GALLERY */
+
+#gallery{
+
+    padding:80px 6%;
+
+}
+
+
+#gallery h2{
+
+    font-size:2.8rem;
+
+}
+
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.glass-card{
+
+    height:380px;
+
+}
+
+
+
+/* LETTER */
+
+
+#letter{
+
+    padding:80px 6%;
+
+}
+
+
+#letter h2{
+
+    font-size:2.8rem;
+
+}
+
+
+#letter p{
+
+    padding:30px 20px;
+
+    font-size:1.2rem;
+
+}
+
+
+
+/* SURPRISE */
+
+
+#surprise{
+
+    min-height:70vh;
+
+    padding:80px 6%;
+
+}
+
+
+#surprise h2{
+
+    font-size:2.5rem;
+
+}
+
+
+
+/* ENDING */
+
+
+#ending{
+
+    padding:90px 6%;
+
+}
+
+
+#ending h1{
+
+    font-size:3rem;
+
+}
+
+
+#ending p{
+
+    font-size:1rem;
+
+}
+
+
+
+/* MUSIC BUTTON */
+
+
+#musicBtn{
+
+    width:50px;
+
+    height:50px;
+
+    bottom:20px;
+
+    right:20px;
+
+}
+
+
+}
